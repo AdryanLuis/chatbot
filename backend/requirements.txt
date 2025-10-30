@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+aiosqlite
+langchain
+langchain-google-genai
+pydantic

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Chatbot Interativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app-wrapper">
+
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Chatbot 1500</h2>
+                <button id="new-chat-button" type="button" title="Novo Chat">+</button>
+            </div>
+            <div class="chat-history-list">
+                </div>
+            <div class="sidebar-footer">
+                <p>Meu Projeto</p>
+                <button id="theme-toggle" title="Mudar tema">🌙</button>
+            </div>
+        </aside>
+
+        <main class="chat-container">
+            
+            <div class="chat-log" id="chat-log">
+                </div>
+            
+            <form class="chat-input-area" id="chat-input-area">
+                <input type="text" id="user-input" placeholder="Digite sua mensagem aqui..." autocomplete="off">
+                <button id="send-button" type="submit">
+                    <img src="https://img.icons8.com/ios-filled/24/FFFFFF/paper-plane.png" alt="Enviar">
+                </button>
+            </form>
+        </main>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
