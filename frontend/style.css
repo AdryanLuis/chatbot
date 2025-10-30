@@ -178,9 +178,7 @@ body {
     overflow-y: auto;
     background-color: var(--bg-chat-log);
     color: var(--text-primary);
-    max-width: 900px;
     width: 100%;
-    margin: 0 auto;
     box-sizing: border-box;
     transition: background-color 0.3s ease;
 }
@@ -251,9 +249,7 @@ body.dark-mode .bot-message td {
     padding: 15px;
     border-top: 1px solid var(--border-input-area);
     background-color: var(--bg-input-area);
-    max-width: 900px;
     width: 100%;
-    margin: 0 auto;
     box-sizing: border-box;
     transition: background-color 0.3s ease;
 }
