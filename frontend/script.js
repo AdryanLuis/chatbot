@@ -18,8 +18,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
-        console.log(`Excluindo chat: ${chatId}`);
-
         try {
             const response = await fetch(`http://localhost:3000/api/chat/${chatId}`, {
                 method: 'DELETE'
